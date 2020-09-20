@@ -13,3 +13,21 @@ Cтата за 20 игр на уровне extreme -> 2 победы бота, 1
 Так как вся игра является своего рода захватом центра и уже после первых 4 ходов с каждой стороны почти понятен исход.
 Если будет свободное время я скорее всего сделаю. Базу данных дебютов можно создать, например методом кросс-энтропии.
 Так если у нас есть только сердцевина (3 * 3, или 2 * 2), а все остальное пустое, мы в массиве будет хранить оптимальный ход.
+
+
+
+This program has a positive win rate against a human on a 5v5 (4 in a row) field.
+Stat for 20 games at extreme level -> 2 bot wins, 1 me wins, 17 draws).
+On average, the bot's turn time at the extreme level is 30 seconds.
+The program also adheres to the code-style, has the ability to select a game mode, and supports a user-friendly interface
+
+In the program, as a feature, you can adjust the difficulty level of the bot game.
+
+More than 70 lines of comments have been written to the program, which explain the purpose of certain functions. Comments in English. For many of them I have used google translator so there may be errors
+
+This program was created in Jupiter Notebook, also works in PyCharm.
+
+How to improve the program? Most likely it is worth creating a database of all "openings".
+Since the whole game is a kind of capture of the center and after the first 4 moves on each side the outcome is almost clear.
+If I have free time, I will most likely do it. Openings database can be created, for example, using the cross-entropy method.
+So if we have only the core (3 * 3, or 2 * 2), and everything else is empty, we will store the optimal move in the array.
